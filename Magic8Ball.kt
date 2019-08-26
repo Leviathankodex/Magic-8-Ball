@@ -1,5 +1,3 @@
-package com.MyFirstApp
-
 /**
  * Magic Eight Ball
  * @author LeviathanKodex
