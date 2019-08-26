@@ -1,2 +1,3 @@
 # Magic-8-Ball
-Magic 8 ball written in Kotlin (Made for fun to practice Kotlin)
+Magic 8 ball written in Kotlin.
+This magic 8 ball was all for practice, and is by no means 100% perfect.
