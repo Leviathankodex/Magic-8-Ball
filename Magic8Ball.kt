@@ -14,10 +14,14 @@
     var isGameOver : Boolean = false
    loop@  while(!isGameOver) {
         val optionsParam = (Math.random() * options.size).toInt()
-        println("The Magic 8-Ball Knows all, ask a question of your choice.")
-        println("Just ask a Yes or No Answer, and you shall get a Valid Answer.")
+       //Sends Strings to Console so user knows how to 'play'
+        println("The Magic 8-Ball Knows all.")
+        println("Ask a Yes or No Answer.")
         println("To exit the game, simply type in Exit.")
+       //Goes to Class and sets user input to variable
         val userChoice = UserSide().getUserInput()
+    
+         //Allows the player to end the 'game'
         if(userChoice == "Exit" || userChoice == "exit"){
             println("Thanks for playing!")
             break
